@@ -72,9 +72,16 @@ src/main/java/com/youtube/fetcher/
 
 ### 1. 环境要求
 
-- Java 11+
+- Java 25 (LTS)
 - Maven 3.6+
 - YouTube Data API v3 密钥
+
+如果系统默认Java版本不是25，请在运行前设置JAVA_HOME并更新PATH，例如:
+
+```bash
+export JAVA_HOME=/path/to/jdk-25
+export PATH="$JAVA_HOME/bin:$PATH"
+```
 
 ### 2. 设置API密钥
 
